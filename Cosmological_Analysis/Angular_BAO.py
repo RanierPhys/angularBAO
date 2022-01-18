@@ -87,7 +87,7 @@ Total_Data = np.loadtxt(path+'/Final_Table.txt')
 BAO = Total_Data[:,2]
 redshift_bao = Total_Data[:,0]
 error_bao = Total_Data[:,5]
-Cov = np.loadtxt(path+'/Cov_thetas.txt')
+Cov = np.loadtxt(path+'/Cov_BAO.txt')
 invCOV = np.linalg.inv(Cov)
 
 
