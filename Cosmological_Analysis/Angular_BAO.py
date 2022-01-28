@@ -114,7 +114,7 @@ sampler = emcee.EnsembleSampler(nwalkers, ndim, instan_Bayes.lnprob, backend=bac
 
 #run the MCMC:
 
-steps =1000#100000
+steps =1000# for the paper was used 100000
 sampler.run_mcmc(pos, steps, progress = True)
 
 ########################################################################################################################################################################
@@ -123,7 +123,7 @@ sampler.run_mcmc(pos, steps, progress = True)
 #
 ########################################################################################################################################################################
 
-burn = 100#10000
+burn = 100#for the paper was used 10000
 reader = emcee.backends.HDFBackend('Angular_BAO.h5')
 names = [r'r_dh', r'\Omega_m']
 labels =  names 
