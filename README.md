@@ -52,6 +52,9 @@ $$\chi^2_{BAO}(H_0,\Omega, r_d) = \sum_{ij} [\theta_{BAO}(z_i) - \theta_{BAO,i}]
   
   Where $M$ is the absolute magnitude of supernova, and $m(z) = 5log\left[\frac{D_L(z)}{10pc}\right] + M$
   
+  Then the total likelihood is:
   
+  
+ $$chi^2 = chi^2_{BAO}+ chi^2_{sne}$$
   
   
