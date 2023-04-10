@@ -57,4 +57,6 @@ $$\chi^2_{BAO}(H_0,\Omega, r_d) = \sum_{ij} [\theta_{BAO}(z_i) - \theta_{BAO,i}]
   
  $$\chi^2 = \chi^2_{BAO}+ \chi^2_{sne}$$
   
+  Using the flat priors we stell have degeneracy between $H_0$ and $r_d$, then the parametric space is $(r_dh,Omega_m, M)$
   
+  The degeneracy between $H_0$ and $r_d$ can be broken using a informative prior for $M$.
