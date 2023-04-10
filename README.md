@@ -9,6 +9,7 @@ The files .py (Angular_BAO.py, ...) sample a markov chain assuming the flat $\La
 The Data:
 
      ---> Final_Table.txt: File contains the BAO measurements as described by the paper ...
+
           .1th Column : Redshift
           .2th Column : Angula BAO Scale measuremnts biased 
           .3th Column : Angula BAO Scale measuremnts unbiased
@@ -17,6 +18,13 @@ The Data:
           .6th Column : Total error = sqrt(stat**2 + sys**2)         
           .7th Column : Perncentile of total error relative to the unbiased measurements 
 
+     ---> Cov_BAO.txt : Covariance matrix between the angula BAO scale.
+     
+     ---> Snv.txt : Pantheon Supernova data. It can be used to combine SUpernova's likelihood with angular BAO's likelihood and get better constrains over the cosmological parameters.
+     
+     ---> Snvsys.txt : Matrix with the systematic erros relative Supernova measurements.
+     
+     
 The data (the angular BAO measured) and its covariance matrix are avaiable in the directory 
 
 
