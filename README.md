@@ -38,7 +38,19 @@ $$\chi^2_{BAO}(H_0,\Omega, r_d) = \sum_{ij} [\theta_{BAO}(z_i) - \theta_{BAO,i}]
 
   Where $\theta_{BAO}(z) = \frac{r_d}{(1+z)d_A(z)}$ (with $d_A$ is the angular diameter distance).
   
-  Due the dependency $\frac{r_d}{d_A}$ in the likelihood we have a degeneracy between the parameters $r_d$ and $H_0$, so the parametric space is $(r_dh,\Omega_m)$.
+  Due the dependency $\frac{r_d}{d_A}$ in the likelihood we have a degeneracy between the parameters $r_d$ and $H_0$, so the parametric space is $(r_dh,\Omega_m)$. 
+  
+  The priors of the free parameters $r_d, \Omega_m$.
+  
+## BAO_Sn_flat_prior.py:
+
+
+  In this analysis we combine the likelihood with Angular BAO and Supernova. The last one is:
+  
+  
+  $$\chi^2_{sne}(H_0,\Omega, M) = \sum_{ij} [m(z_i) - m_{i}]\Sigma^{-1}_{sne,ij}[m(z_j) - m_{j}]$$
+  
+  Where $M$ is the absolute magnitude of supernova, and $m(z) = 5log\left[\frac{D_L(z)}{10pc}\right] + M$
   
   
   
