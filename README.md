@@ -37,3 +37,9 @@ $$\chi^2_{BAO}(H_0,\Omega, r_d) = \sum_{ij} [\theta_{BAO}(z_i) - \theta_{BAO,i}]
 
 
   Where $\theta_{BAO}(z) = \frac{r_d}{(1+z)d_A(z)}$ (with $d_A$ is the angular diameter distance).
+  
+  Due the dependency $\frac{r_d}{d_A}$ in the likelihood we have a degeneracy between the parameters $r_d$ and $H_0$, so the parametric space is $(r_dh,\Omega_m)$.
+  
+  
+  
+  
