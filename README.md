@@ -55,6 +55,6 @@ $$\chi^2_{BAO}(H_0,\Omega, r_d) = \sum_{ij} [\theta_{BAO}(z_i) - \theta_{BAO,i}]
   Then the total likelihood is:
   
   
- $$chi^2 = chi^2_{BAO}+ chi^2_{sne}$$
+ $$\chi^2 = \chi^2_{BAO}+ \chi^2_{sne}$$
   
   
