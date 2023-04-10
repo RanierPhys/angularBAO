@@ -25,12 +25,11 @@ The Data:
      ---> Snvsys.txt : Matrix with the systematic erros relative Supernova measurements.
      
      
-The data (the angular BAO measured) and its covariance matrix are avaiable in the directory 
+## Angular_BAO.py:
 
 
-There are three types of analysis.
-
-## Angular BAO:
+ In this analysis we use just angular BAO measurements to infer the cosmological parameters. As described in the paper ... , the expression of the likelihood is given by:
 
 
-coming soon ...
+
+$ \chi^2_{BAO}(H_0,\Omega, r_d) = \sum_{ij} [\theta_{BAO}(z_i) - \theta_{BAO,i}]\Sigma^{-1}[\theta_{BAO}(z_j) - \theta_{BAO,j}] $
