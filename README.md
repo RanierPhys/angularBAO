@@ -32,4 +32,4 @@ The Data:
 
 
 
-$ \chi^2_{BAO}(H_0,\Omega, r_d) = \sum_{ij} [\theta_{BAO}(z_i) - \theta_{BAO,i}]\Sigma^{-1}[\theta_{BAO}(z_j) - \theta_{BAO,j}] $
+$$\chi^2_{BAO}(H_0,\Omega, r_d) = \sum_{ij} [\theta_{BAO}(z_i) - \theta_{BAO,i}]\Sigma^{-1}[\theta_{BAO}(z_j) - \theta_{BAO,j}]$$
