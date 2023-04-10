@@ -32,4 +32,8 @@ The Data:
 
 
 
-$$\chi^2_{BAO}(H_0,\Omega, r_d) = \sum_{ij} [\theta_{BAO}(z_i) - \theta_{BAO,i}]\Sigma^{-1}[\theta_{BAO}(z_j) - \theta_{BAO,j}]$$
+$$\chi^2_{BAO}(H_0,\Omega, r_d) = \sum_{ij} [\theta_{BAO}(z_i) - \theta_{BAO,i}]\Sigma^{-1}_{BAO,ij}[\theta_{BAO}(z_j) - \theta_{BAO,j}]$$
+
+
+
+  Where $\theta_{BAO}(z) = \frac{r_d}{(1+z)d_A(z)}$ (with $d_A$ is the angular diameter distance).
