@@ -1,10 +1,8 @@
 # Cosmological Analysis from Angular BAO Data
 
-Likelihood implementation for cosmological parameter estimation using angular Baryon Acoustic Oscillation (BAO) data, with optional combination with Supernova (SNe) data.
+Likelihood implementation for cosmological parameter estimation using angular Baryon Acoustic Oscillation (BAO) data [_Ranier Menote , Valerio Marra_](https://academic.oup.com/mnras/article/513/2/1600/6556012), with optional combination with Supernova (SNe) data.
 
-Based on the results from the paper:  
-**"Cosmological constraints from angular BAO measurements"**  
-[_de Carvalho et al., MNRAS 513, 1600 (2022)_](https://academic.oup.com/mnras/article/513/2/1600/6556012)
+
 
 ---
 
